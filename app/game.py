@@ -8,6 +8,11 @@ from random import choice
 
 def determine_winner(u, c):
 
+    """
+    Paramaters:
+        choice1 and choice2 are strings : either "rock", "paper", or "scissors".
+    """
+
     win_options = {"rock": "scissors", "scissors": "paper", "paper": "rock"}
     win_choice = win_options[u]
 
